@@ -6,9 +6,9 @@ public class Variant {
     private String size;
     private String image;
     private int quantity;
-    private float price;
+    private double price;
 
-    public Variant(String variantName, String variantID, String size, String image, int quantity, float price) {
+    public Variant(String variantName, String variantID, String size, String image, int quantity, double price) {
         this.variantName = variantName;
         this.variantID = variantID;
         this.size = size;
@@ -33,7 +33,7 @@ public class Variant {
     public int getQuantity() {
         return quantity;
     }
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
 }
