@@ -12,13 +12,11 @@ public class Readproducts {
         try {
             Reader reader = Files.newBufferedReader(Paths.get("./inventory/inventory.json"));
             inventory.ProductList productlist = gson.fromJson(reader,inventory.ProductList.class);
+            reader.close();
             return productlist;
         } catch (IOException e) {
             return null;
         }
     }
-
-    public static void main(String[] args) {
-        Readproducts.ReadProducts();
-    }
+    
 }
