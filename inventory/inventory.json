@@ -1,1 +1,18 @@
-{"products":[{"productName":"Product 1","productID":"1","variants":[{"variantName":"New Prod ","variantID":"12345","size":"S","image":"https://youtube.com/","quantity":1,"price":100.0},{"variantName":"New Prod 2","variantID":"123456","size":"M","image":"https://youtube.com/","quantity":1,"price":100.0},{"variantName":"New Prod 3","variantID":"1234567","size":"L","image":"https://youtube.com/","quantity":1,"price":100.0}]},{"productName":"test","productID":"","variants":[{"variantName":"test1","variantID":"1","size":"test","image":"test","quantity":1,"price":1.0}]},{"productName":"newest product","productID":"aaaa","variants":[{"variantName":"Red","variantID":"1","size":"Small","image":"./images/red.jpg","quantity":10,"price":10.0}]}]}
+{
+  "products": [
+    {
+      "productName": "tanmay edited",
+      "productID": "2",
+      "variants": [
+        {
+          "variantName": "Red",
+          "variantID": "3",
+          "size": "Small",
+          "image": "./images/red.jpg",
+          "quantity": 10,
+          "price": 10.0
+        }
+      ]
+    }
+  ]
+}
