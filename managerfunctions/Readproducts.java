@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 
 import com.google.gson.*;
 public class Readproducts {
@@ -15,7 +16,8 @@ public class Readproducts {
             reader.close();
             return productlist;
         } catch (IOException e) {
-            return null;
+            inventory.ProductList productlist = new inventory.ProductList(new ArrayList<inventory.Product>());
+            return productlist;
         }
     }
     
