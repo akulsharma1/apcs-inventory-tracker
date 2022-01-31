@@ -29,6 +29,18 @@ public class Product {
         return variants;
     }
 
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    public String toString() {
+        String variantList = "";
+        for (int i = 0; i < variants.size(); i++) {
+            variantList += variants.get(i).getVariantName() + ": " + variants.get(i).getSize()+",\n";
+        }
+        return variantList;
+    }
+
 }
 
 
