@@ -1,18 +1,4 @@
 {
   "products": [
-    {
-      "productName": "tanmay edited",
-      "productID": "2",
-      "variants": [
-        {
-          "variantName": "Red",
-          "variantID": "3",
-          "size": "Small",
-          "image": "./images/red.jpg",
-          "quantity": 10,
-          "price": 10.0
-        }
-      ]
-    }
   ]
 }
