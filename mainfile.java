@@ -44,6 +44,7 @@ public class mainfile {
     }
     
     public static void mainMenu() {
+        System.out.println("_ _______             _    \n(_)__   __|           | |   \n_   | |_ __ __ _  ___| | __\n| |  | | '__/ _` |/ __| |/ /\n| |  | | | | (_| | (__|   < \n|_|  |_|_|  \\__,_|\\___|_|\\_\\                          ");
         Scanner input = new Scanner(System.in);
         while (true) {
             printProductMenu(Readproducts.ReadProducts());
